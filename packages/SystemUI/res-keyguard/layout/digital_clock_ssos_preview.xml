@@ -34,7 +34,10 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:format12Hour="EEEE"
+<<<<<<< HEAD
             android:format24Hour="EEEE"
+=======
+>>>>>>> e0bf4254ec8... Add ShapeShift lockscreen clock
             android:textColor="?android:textColorPrimary" />
 
         <LinearLayout
@@ -51,7 +54,10 @@
                 android:layout_height="match_parent"
                 android:layout_gravity="center_horizontal"
                 android:ellipsize="none"
+<<<<<<< HEAD
                 android:format24Hour="kk"
+=======
+>>>>>>> e0bf4254ec8... Add ShapeShift lockscreen clock
                 android:format12Hour="h"
                 android:textColor="?android:attr/colorAccent"
                 android:textSize="45.5sp" />
@@ -63,7 +69,10 @@
                 android:ellipsize="none"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center|bottom"
+<<<<<<< HEAD
                 android:format24Hour=":mm"
+=======
+>>>>>>> e0bf4254ec8... Add ShapeShift lockscreen clock
                 android:format12Hour=":mm"
                 android:textColor="?android:textColorPrimary"/>
 
@@ -76,7 +85,10 @@
             android:layout_height="wrap_content"
             android:ellipsize="none"
             android:layout_gravity="left|bottom"
+<<<<<<< HEAD
             android:format24Hour=" MMMM  dd"
+=======
+>>>>>>> e0bf4254ec8... Add ShapeShift lockscreen clock
             android:format12Hour=" MMMM  dd"
             android:paddingBottom="@dimen/title_clock_padding"
             android:textColor="?android:textColorPrimary" />
