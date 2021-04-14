@@ -17,8 +17,9 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/quick_settings_container"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="match_parent"
     android:clipToPadding="false"
+    android:color="@color/qs_background_dark" 
     android:clipChildren="false" >
 
     <!-- Main QS background -->
@@ -26,8 +27,7 @@
         android:id="@+id/quick_settings_background"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:elevation="4dp"
-        android:background="@drawable/qs_background_primary" />
+        android:elevation="4dp" />
 
     <!-- Black part behind the status bar -->
     <LinearLayout
