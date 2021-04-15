@@ -83,9 +83,6 @@
         <item>screenshot</item> <!--2 buttons nav-->
     </string-array>
 
-    <!-- Screen off delay -->
-    <integer name="config_screen_off_delay">0</integer>
-
     <!-- Button backlight control. Possible values are:
             0 - Not supported
             1 - Supported, but only on/off mode
